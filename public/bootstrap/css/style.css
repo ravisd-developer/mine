@@ -1,0 +1,161 @@
+body {
+    font-family: serif;
+    font-weight: 300;
+    color: white;
+    background: black;
+}
+.sidebarnav {
+    height: 100%;
+    background: #3F619C;
+    width: 20%;
+    float: left;
+    text-align: center;   
+    position: fixed; 
+
+}
+
+.content {
+    background: black;
+    float: right;
+    width: 80%;
+    height: 100%;
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.card {
+    background-color: black;
+}
+a.waves-effect, a.waves-light {
+    display: block !important;
+    color: white;
+    font-size: 20px;
+}
+
+.first-show {
+    text-align: center;
+    font-size: 53px;
+    font-weight: 500;
+}
+
+.first-show {
+    text-align: center;
+    font-size: 71px;
+    font-weight: 900;
+}
+
+span.ravi:before {
+    content: "_";
+    color: #e4ff00;
+}
+span.ravi{
+    color: #e4ff00;
+}
+a.typewrite {
+    color: wheat;
+}
+
+.name {
+    position: absolute;
+    top: 0px;
+    font-size: 39px;
+    transition: 0.9s;
+}
+
+div#profile-classic-orange h1 {
+    text-decoration: underline dashed;
+    text-decoration-color: #43649c;
+}
+
+div#profile-classic-orange {
+    text-align: center;
+}
+.spacer {
+    padding: 26px;
+}
+
+.inner-pro h5 {
+    text-align: center;
+    border-bottom: #e4ff00 1px solid;
+}
+ul.pro-ul li {
+    color: #8d94a0;
+}
+a.project-btn {
+    padding: 10px;
+    color: yellow;
+    margin-left: 30px;
+    border: 3px solid #3f619c;
+}
+
+a.project-btn:hover {
+    border: 3px solid yellow;
+    color: #3f619c;
+}
+input#u-url {
+    width: 99%;
+    text-transform: none;
+}
+
+p.link-url {
+    text-align: center;
+    font-size: 25px;
+}
+
+form#insert-url {
+    text-align: center;
+}
+input#r-url {
+    display: none;
+}
+
+
+.login .nav {
+
+    flex-direction: row;
+}
+ul#pills-tab {
+    border: 1px solid #3f619c;
+    padding: 8px;
+}
+
+a.active {
+    background: #3f619c8c !important;
+    border: 1px solid;
+}
+.login a.nav-link {
+    color: white;
+}
+
+.form-control:focus {
+    color: #ffffff !important;
+    background-color: #000 !important;
+    border-color: #80bdff;
+    outline: 0;
+
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+#pills-tabContent .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #000;
+    border: 0;
+    margin-top: 14px !important;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
